@@ -70,7 +70,6 @@ function searchElement() {
 
 
 function displayElementInfo(element) {
-  document.getElementById('suggestions').classList.add('hidden');
     const shows = document.querySelectorAll('.show');
         shows.forEach(show => {
             show.style.display = 'inline-block';
@@ -87,7 +86,6 @@ function displayElementInfo(element) {
   document.getElementById('ar').textContent = element.atomicRadius || 'N/A';
   document.getElementById('ie').textContent = element.ionizationEnergy || 'N/A';
   document.getElementById('ec').textContent = element.electronicConfiguration || 'N/A';
-  document.getElementById('suggestions').classList.remove('hidden');
 }
 
 function displayApplications(element){
