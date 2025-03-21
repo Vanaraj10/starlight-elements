@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(56, 56, 56);
+    margin: 0;
+    padding: 0;
+}
+#header{
+    color: rgb(72, 72, 255);
+    font-size: 1.8rem;
+    background-color: rgb(31, 29, 29);
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    padding-bottom: 0;
+    display: inline;
+    font-family: cursive;
+    font-weight: 800;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+#intro{
+    background-color:  rgb(31, 29, 29);
+    color: rgb(181, 181, 181);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 6px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    text-align: left;
+    max-width: 630px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#autocomplete-container {
+    position: relative;
+  }
+  
+  #suggestions {
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-height: 150px;
+  }  
+#input-container{
+    background-color:  rgb(31, 29, 29);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 6px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    color: rgb(181, 181, 181);
+    max-width: 400px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    background-color: rgb(92, 92, 92);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px auto;
+    border: 0;
+    color: white;
+    display: block;
+}
+#caution{
+    font-size: 0.5rem;
+    color: beige;
+    margin-bottom: 0;
+}
+#search{
+    background-color: rgb(31, 102, 255);
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    width: 40%;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#elementInfo{
+    background-color:  rgb(31, 29, 29);
+    width: 90%;
+    padding-top: 7px;
+    max-width: 650px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+#label{
+    color: white;
+    margin: 3px;
+}
+#atomic-number,#atomic-mass,#boiling-point,#melting-point,#oxidation-states,#standard-state{
+    background-color: rgb(53, 53, 53);
+    width: 40%;
+    font-size: 0.8rem;
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0;
+}
+#an,#am,#en,#bp,#mp,#os,#ss,#gp,#ie,#ar,#ec{
+    margin: 0;
+    color: rgb(212, 255, 19);
+}
+#Electronegativity{
+    background-color: rgb(53, 53, 53);
+    width: 82%;
+    font-size: 0.8rem;
+    max-width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0;
+}
+#symbol{
+    background-color: rgb(130, 120, 120);
+    width: 40%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
+    padding: 0;
+    letter-spacing: 2px;
+}
+#sym{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+#suggestions {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    max-width: 150px;
+    width: 55%; left: 20%;
+    background: rgba(85, 85, 85,100);
+    max-height: 150px; 
+    opacity: 90%;
+    margin: 20px 13%;
+}
+
+#suggestions li {
+    padding: 6px;
+    cursor: pointer;
+    align-items: center;
+    border:0;
+    margin: 0% auto;
+}
+
+#suggestions li:hover {
+    align-items: center;
+    margin: 0% auto;
+    background: #f0f0f0;
+}
+#app{
+    background-color: rgb(53, 53, 53);
+    width: 82%;
+    font-size: 0.6rem;
+    max-width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+#apps{
+    list-style-type:none;
+    text-align: left;
+    padding-right: 4px;
+}
+#apps::before {
+    content: "⭐ ";
+    color: gold;
+    font-size: 20px;
+}
+
+
+  

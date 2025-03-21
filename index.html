@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Starlight Element</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Outline&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+
+    <center>
+    <div id="header">StarLight Elements
+        <img id ="logo" src="images/starlight-removebg.png">
+    </div>
+   </center>
+
+   <center>
+    <div id="intro">
+        <p>
+            Welcome to starlight elements !<br>
+            In this webpage you can get information about any elements from the periodic table<br>
+            Go ahead and try our webpage
+        </p>
+    </div>
+   </center>
+
+   <center>
+    <div id="input-container">
+        Enter element name
+          <input type="text" id="element" placeholder="Eg. Hydrogen" required onkeyup="searchElement()">
+          <center><ul id="suggestions" ></ul></center>
+          <br>
+          <br>
+        <p id="caution">Please enter the element name without mistakes!</p>
+        <button id="search">Search</button>
+      </div>
+   </center>
+
+   <center>
+    <div id="elementInfo">
+        <div class="show" id="atomic-number">
+            <p id="label">Automic Number</p>
+            <p id="an">---</p>
+        </div>
+        <div class="show" id="atomic-mass">
+            <p id="label">Automic Mass</p>
+            <p id="am">---</p>
+        </div>
+        <br>
+        <div class="show" id="Electronegativity">
+            <p id="label">Electronegativity</p>
+            <p id="en">---</p>
+        </div>
+        <br>
+        <div class="show" id="boiling-point">
+            <p id="label">Boiling Point</p>
+            <p id="bp">---</p>
+        </div>
+        <div class="show" id="melting-point">
+            <p id="label">Meltic Point</p>
+            <p id="mp">---</p>
+        </div>
+        <div class="show" id="symbol">
+            <p id="label" style="color: black;">Symbol</p>
+            <p id="sym">---</p>
+        </div>
+        <br>
+        <div class="show" id="oxidation-states">
+            <p id="label">Oxydation States</p>
+            <p id="os">---</p>
+        </div>
+        <div class="show" id="standard-state">
+            <p id="label">Standard State</p>
+            <p id="ss">---</p>
+        </div>
+        <br>
+        <div class="show" id="Electronegativity">
+            <p id="label">Group Block</p>
+            <p id="gp">---</p>
+        </div>
+        <br>
+        <div class="show" id="oxidation-states">
+            <p id="label">Atomic Radius</p>
+            <p id="ar">---</p>
+        </div>
+        <div class="show" id="standard-state">
+            <p id="label">Ionization Energy</p>
+            <p id="ie">---</p>
+        </div>
+        <br>
+        <div class="show" id="Electronegativity">
+            <p id="label">Electronic Configuration</p>
+            <p id="ec">---</p>
+        </div>
+
+        <div id="app">
+            <p id="label">Applications</p>
+            <div id="ap">---</div>
+        </div>
+    </div>
+   </center>
+   <script src="script.js"></script>
+</body>
+</html>
